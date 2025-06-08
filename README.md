@@ -6,16 +6,7 @@
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
-type Client, 
-  type Property, 
-  type Deal, 
-  type AuditLog,
-  type InsertClient, 
-  type InsertProperty, 
-  type InsertDeal, 
-  type InsertAuditLog,
-  type DealWithDetails 
-} from "@shared/schema";
+tshared/schema";
 
 export interface IStorage {
   // Clients
